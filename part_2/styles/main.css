@@ -1,0 +1,41 @@
+* {
+  font-family: sans-serif;
+
+}
+
+header img {
+  float: left;
+
+}
+/* random testing
+header h1, header h2{
+  clear: both;
+}
+*/
+
+header h2 {
+  font-size: 220%;
+  font-style: italic;
+  margin-left: 120px;
+  color: orange;
+  text-shadow: 2px 2px 1px black;
+}
+
+header h3 {
+  font-size: 130%;
+   margin-left: 120px;
+}
+
+
+main h1::first-letter{
+  font-size: 200%;
+}
+main ul li{
+  margin-top: 8px
+}
+
+
+
+footer {
+
+}
