@@ -3,11 +3,14 @@
 
 }
 
+
+/* **********HEADER BEGIN**********  */
 header img {
   float: left;
 
 }
-/* random testing
+/*
+ RANDOM TESTING, PLEASE IGNORE
 header h1, header h2{
   clear: both;
 }
@@ -18,24 +21,44 @@ header h2 {
   font-style: italic;
   margin-left: 120px;
   color: orange;
-  text-shadow: 2px 2px 1px black;
+  text-shadow: 2px 2px 2px black;
+  /* Not necessary, optional (does the same thing since html automatically formats text to the left
+  text-align: left; */
 }
 
 header h3 {
   font-size: 130%;
    margin-left: 120px;
 }
+/* **********HEADER END**********  */
 
 
+/* **********MAIN END**********  */
 main h1::first-letter{
   font-size: 200%;
 }
+
+main h1, main h2, main h3{
+  font-size: 125%;
+}
 main ul li{
-  margin-top: 8px
+  margin-top: 8px;
 }
 
+main ul li a{
+  color:  orange;
+  font-weight: bold;
 
+}
+main ul li a:hover{
+  color: green;
+}
 
+/* ********** MAIN END**********  */
+
+/* **********FOOTER END**********  */
 footer {
-
+font-size: 80%;
+text-align: center;
 }
+/* **********FOOTER END**********  */
