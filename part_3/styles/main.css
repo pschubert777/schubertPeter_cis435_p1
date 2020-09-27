@@ -1,135 +1,119 @@
 * {
   font-family: Verdana, Helvetica, sans-serif;
-
 }
 
-html{
-
-background-image:url("../images/bats.gif");
-
+html {
+  background-image: url("../images/bats.gif");
 }
 
-
-
-body{
+body {
   /* in order to center, must use width along with
   margin auto so that the browser knows where to center based
   on the width length*/
-
   background-color: white;
   width: 800px;
   margin: auto;
   border-style: solid;
   /* shadow: horizontal vertical blur_radius color*/
   box-shadow: 0px 0px 20px black;
-
 }
 
 /* **********HEADER BEGIN**********  */
-header{
-  padding: 0% ;
+header {
+  padding: 0%;
   border-bottom: solid black;
   background-image: linear-gradient(to top right, orange, white);
-
-
 }
+
 header img {
-padding-top: 2%;
-padding-left: 1.5%;
-
+  padding-top: 2%;
+  padding-left: 1.5%;
   float: left;
-
-
 }
+
 /*
  RANDOM TESTING, PLEASE IGNORE
 header h1, header h2{
   clear: both;
 }
 */
-
 header h2 {
   margin-top: 0%;
   margin-bottom: 0%;
   margin-left: 120px;
-
   font-size: 220%;
   font-style: italic;
-
   padding-top: 20px
-
-  /*
+    /*
   color: orange;
   text-shadow: 2px 2px 2px black;
   */
-  /* Not necessary, optional (does the same thing since html automatically formats text to the left
+    /* Not necessary, optional (does the same thing since html automatically formats text to the left
   text-align: left; */
 }
-
 
 header h3 {
   margin-left: 120px;
   margin-top: 0.5%;
   margin-bottom: 0%;
-
-   font-size: 130%;
-   padding-bottom: 2%;
+  font-size: 130%;
+  padding-bottom: 2%;
 }
+
 /* **********HEADER END**********  */
-
-
 /* **********MAIN BEGIN**********  */
-main{
-
+main {
   padding: 0% 2% 2% 2%;
 }
-main h1::first-letter{
+
+main h1::first-letter {
   font-size: 200%;
 }
-main h1{
+
+main h1 {
   margin-bottom: 0%;
 }
 
-
-main #p1{
-margin-top: 2%;
-margin-bottom: 0%;
-
+main #p1 {
+  margin-top: 2%;
+  margin-bottom: 0%;
 }
-main #p2{
+
+main #p2 {
   margin-top: 1%;
   margin-bottom: 0%;
   padding: 0%
 }
-main h1, main h2, main h3{
+
+main h1, main h2, main h3 {
   font-size: 125%;
 }
-main ul li{
+
+main ul li {
   margin-top: 0%;
 }
 
-main ul li a{
-  color:  orange;
+main ul li a {
+  color: orange;
   font-weight: bold;
-
 }
-main ul li a:hover{
+
+main ul li a:hover {
   color: green;
 }
 
 /* ********** MAIN END**********  */
-
 /* **********FOOTER END**********  */
 footer {
-font-size: 80%;
-text-align: center;
-border-top: solid black;
-background-image: linear-gradient(to top right, orange, white);
+  font-size: 80%;
+  text-align: center;
+  border-top: solid black;
+  background-image: linear-gradient(to top right, orange, white);
 }
 
-footer p{
-padding-bottom: 2%;
-margin-bottom: 0px
+footer p {
+  padding-bottom: 2%;
+  margin-bottom: 0px
 }
 
 /* **********FOOTER END**********  */
