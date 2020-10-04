@@ -12,7 +12,7 @@ body {
   on the width length*/
   background-color: white;
   width: 800px;
-  margin: auto;
+ margin: auto;
   border-style: solid;
   /* shadow: horizontal vertical blur_radius color*/
   box-shadow: 0px 0px 20px black;
