@@ -3,8 +3,8 @@
 }
 
 html {
-  background-repeat: repeat;
   background-image: url("../images/bats.gif");
+  background-repeat: repeat;
 }
 
 body {
